@@ -65,9 +65,7 @@ strong {
     font-weight: bolder
 }
 
-code,
-kbd,
-samp {
+code,kbd,samp {
     font-family: monospace, monospace;
     font-size: 1em
 }
@@ -85,8 +83,7 @@ small {
     font-size: 80%
 }
 
-sub,
-sup {
+sub,sup {
     font-size: 75%;
     line-height: 0;
     position: relative;
@@ -119,46 +116,31 @@ svg:not(:root) {
     overflow: hidden
 }
 
-button,
-input,
-optgroup,
-select,
-textarea {
+button,input,optgroup,select,textarea {
     font-family: sans-serif;
     font-size: 100%;
     line-height: 1.15;
     margin: 0
 }
 
-button,
-input {
+button,input {
     overflow: visible
 }
 
-button,
-select {
+button,select {
     text-transform: none
 }
 
-button,
-html [type="button"],
-[type="reset"],
-[type="submit"] {
+button,html [type="button"],[type="reset"],[type="submit"] {
     -webkit-appearance: button
 }
 
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {
     border-style: none;
     padding: 0
 }
 
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring {
     outline: 1px dotted ButtonText
 }
 
@@ -200,8 +182,7 @@ textarea {
     outline-offset: -2px
 }
 
-[type="search"]::-webkit-search-cancel-button,
-[type="search"]::-webkit-search-decoration {
+[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none
 }
 
@@ -271,8 +252,7 @@ ol {
     list-style: decimal
 }
 
-li>ul,
-li>ol {
+li>ul,li>ol {
     margin-bottom: 0
 }
 
@@ -306,8 +286,7 @@ figcaption {
     padding: 8px 0
 }
 
-img,
-svg {
+img,svg {
     display: block
 }
 
@@ -325,18 +304,15 @@ th {
     text-align: left
 }
 
-th,
-td {
+th,td {
     padding: 10px 16px
 }
 
-th:first-child,
-td:first-child {
+th:first-child,td:first-child {
     padding-left: 0
 }
 
-th:last-child,
-td:last-child {
+th:last-child,td:last-child {
     padding-right: 0
 }
 
@@ -350,11 +326,7 @@ body {
     font-size: 1rem
 }
 
-body,
-button,
-input,
-select,
-textarea {
+body,button,input,select,textarea {
     font-family: "Heebo", sans-serif
 }
 
@@ -363,32 +335,19 @@ a {
     text-decoration: none
 }
 
-a:hover,
-a:active {
+a:hover,a:active {
     outline: 0;
     text-decoration: underline
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
     clear: both;
     color: #182538;
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 600
 }
 
-h1,
-.h1 {
+h1,.h1 {
     font-size: 38px;
     line-height: 48px;
     letter-spacing: -0.1px
@@ -404,8 +363,7 @@ h1,
     }
 }
 
-h2,
-.h2 {
+h2,.h2 {
     font-size: 32px;
     line-height: 42px;
     letter-spacing: -0.1px
@@ -413,28 +371,20 @@ h2,
 
 @media (min-width: 641px) {
 
-    h2,
-    .h2 {
+    h2,.h2 {
         font-size: 38px;
         line-height: 48px;
         letter-spacing: -0.1px
     }
 }
 
-h3,
-.h3,
-blockquote {
+h3,.h3,blockquote {
     font-size: 24px;
     line-height: 34px;
     letter-spacing: -0.1px
 }
 
-h4,
-h5,
-h6,
-.h4,
-.h5,
-.h6 {
+h4,h5,h6,.h4,.h5,.h6 {
     font-size: 20px;
     line-height: 30px;
     letter-spacing: -0.1px
@@ -459,9 +409,7 @@ h6,
         letter-spacing: -0.1px
     }
 
-    .h4-mobile,
-    .h5-mobile,
-    .h6-mobile {
+    .h4-mobile,.h5-mobile,.h6-mobile {
         font-size: 20px;
         line-height: 30px;
         letter-spacing: -0.1px
@@ -476,18 +424,7 @@ h6,
     color: #8595AE
 }
 
-.text-light h1,
-.text-light h2,
-.text-light h3,
-.text-light h4,
-.text-light h5,
-.text-light h6,
-.text-light .h1,
-.text-light .h2,
-.text-light .h3,
-.text-light .h4,
-.text-light .h5,
-.text-light .h6 {
+.text-light h1,.text-light h2,.text-light h3,.text-light h4,.text-light h5,.text-light h6,.text-light .h1,.text-light .h2,.text-light .h3,.text-light .h4,.text-light .h5,.text-light .h6 {
     color: #fff !important
 }
 
@@ -503,26 +440,17 @@ h6,
     letter-spacing: -0.1px
 }
 
-h1,
-h2,
-.h1,
-.h2 {
+h1,h2,.h1,.h2 {
     margin-top: 48px;
     margin-bottom: 16px
 }
 
-h3,
-.h3 {
+h3,.h3 {
     margin-top: 36px;
     margin-bottom: 12px
 }
 
-h4,
-h5,
-h6,
-.h4,
-.h5,
-.h6 {
+h4,h5,h6,.h4,.h5,.h6 {
     margin-top: 24px;
     margin-bottom: 4px
 }
@@ -532,10 +460,7 @@ p {
     margin-bottom: 24px
 }
 
-dfn,
-cite,
-em,
-i {
+dfn,cite,em,i {
     font-style: italic
 }
 
@@ -568,27 +493,11 @@ address {
     margin: 0 0 24px
 }
 
-pre,
-pre h1,
-pre h2,
-pre h3,
-pre h4,
-pre h5,
-pre h6,
-pre .h1,
-pre .h2,
-pre .h3,
-pre .h4,
-pre .h5,
-pre .h6 {
+pre,pre h1,pre h2,pre h3,pre h4,pre h5,pre h6,pre .h1,pre .h2,pre .h3,pre .h4,pre .h5,pre .h6 {
     font-family: "Courier 10 Pitch", Courier, monospace
 }
 
-pre,
-code,
-kbd,
-tt,
-var {
+pre,code,kbd,tt,var {
     background: #F8F9FB
 }
 
@@ -603,22 +512,17 @@ pre {
     margin-bottom: 24px
 }
 
-code,
-kbd,
-tt,
-var {
+code,kbd,tt,var {
     font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
     font-size: 16px;
     padding: 2px 4px
 }
 
-abbr,
-acronym {
+abbr,acronym {
     cursor: help
 }
 
-mark,
-ins {
+mark,ins {
     text-decoration: none
 }
 
@@ -628,22 +532,16 @@ small {
     letter-spacing: -0.1px
 }
 
-b,
-strong {
+b,strong {
     font-weight: 600
 }
 
-button,
-input,
-select,
-textarea,
-label {
+button,input,select,textarea,label {
     font-size: 20px;
     line-height: 30px
 }
 
-.container,
-.container-sm {
+.container,.container-sm {
     width: 100%;
     margin: 0 auto;
     padding-left: 16px;
@@ -1124,8 +1022,7 @@ label {
     visibility: hidden
 }
 
-.input,
-.textarea {
+.input,.textarea {
     background-color: #182538;
     border-width: 1px;
     border-style: solid;
@@ -1136,51 +1033,40 @@ label {
     width: 100%
 }
 
-.input::-webkit-input-placeholder,
-.textarea::-webkit-input-placeholder {
+.input::-webkit-input-placeholder,.textarea::-webkit-input-placeholder {
     color: #6B7A90
 }
 
-.input:-ms-input-placeholder,
-.textarea:-ms-input-placeholder {
+.input:-ms-input-placeholder,.textarea:-ms-input-placeholder {
     color: #6B7A90
 }
 
-.input::-ms-input-placeholder,
-.textarea::-ms-input-placeholder {
+.input::-ms-input-placeholder,.textarea::-ms-input-placeholder {
     color: #6B7A90
 }
 
-.input::placeholder,
-.textarea::placeholder {
+.input::placeholder,.textarea::placeholder {
     color: #6B7A90
 }
 
-.input::-ms-input-placeholder,
-.textarea::-ms-input-placeholder {
+.input::-ms-input-placeholder,.textarea::-ms-input-placeholder {
     color: #6B7A90
 }
 
-.input:-ms-input-placeholder,
-.textarea:-ms-input-placeholder {
+.input:-ms-input-placeholder,.textarea:-ms-input-placeholder {
     color: #6B7A90
 }
 
-.input:hover,
-.textarea:hover {
+.input:hover,.textarea:hover {
     border-color: #d9e0ea
 }
 
-.input:active,
-.input:focus,
-.textarea:active,
-.textarea:focus {
+.input:active,.input:focus,.textarea:active,.textarea:focus {
     outline: none;
     border-color: #E9EDF3
 }
 
-.input[disabled],
-.textarea[disabled] {
+.input[disabled],.textarea[disabled] {
     cursor: not-allowed;
     background-color: #F8F9FB;
     border-color: #F8F9FB
@@ -1476,8 +1362,7 @@ label {
     display: none
 }
 
-.header-illustration img,
-.header-illustration svg {
+.header-illustration img,.header-illustration svg {
     max-width: none
 }
 
@@ -1495,8 +1380,7 @@ label {
     left: -15px
 }
 
-.hero-media-illustration img,
-.hero-media-illustration svg {
+.hero-media-illustration img,.hero-media-illustration svg {
     max-width: 136%
 }
 
