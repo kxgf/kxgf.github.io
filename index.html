@@ -1,92 +1,171 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-
-<head>
-	<meta name="baidu-site-verification" content="codeva-pUCnYUUxfC" />
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>地表开发组 - 网易我的世界组件开发组</title>
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			text-align: center;
-			background-color: black;
-			color: white;
+<html lang="en" class="sr js">
+ <head> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <title>Home</title> 
+  <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet"> 
+  <link rel="stylesheet" href="dist/css/style.css"> 
+  <script src="dist/js/scrollreveal.min.js"></script> 
+  <script src="js/jq.js"></script> 
+ </head> 
+ <body id="v1" class="is-boxed has-animations is-loaded" style="height: 100%;"> 
+  <div id="v2" class="body-wrap boxed-container"> 
+   <header id="v3" class="site-header"> 
+    <div id="v4" class="container"> 
+     <div id="v5" class="site-header-inner"> 
+      <div id="v6" class="brand header-brand"> 
+       <h1 id="v7" class="m-0"> <a id="v8" href="#"> </a> </h1> 
+      </div> 
+     </div> 
+    </div> 
+   </header> 
+   <main id="v9"> 
+    <section id="v10" class="hero"> 
+     <div id="v11" class="container"> 
+      <div id="v12" class="hero-inner"> 
+       <div id="v13" class="hero-copy"> 
+        <style id="v14">
+		.content{
+		  font: 96px "得意黑";
+		   margin-top: 30px;
+		   font-size: 31px;
+		   background:-webkit-linear-gradient(top, #FF0000, #00FF00);/*设置线性渐变*/
+		   /*为了支持更多的浏览器*/
+		   -webkit-background-clip: text;/*背景被裁剪到文字*/
+		   -webkit-text-fill-color: transparent;/*设置文字的填充颜色*/
 		}
-
-		h1,
-		h2 {
-			margin-top: 0;
-			margin-bottom: 20px;
+	</style> 
+        <div id="v16" class="content">
+          地表开发组 
+        </div> 
+        <h6 id="v17" class="hero-paragraph"><strong id="v18">网易我的世界组件开发组</strong></h6> 
+        <div id="v19" class="hero-cta"> 
+         <a id="v20" class="button button-primary" href="https://b23.tv/q1ZIu8C">官方B站</a> 
+         <div id="v21" class="lights-toggle"> 
+          <input id="lights-toggle" type="checkbox" name="lights-toggle" class="switch" checked=""> 
+          <label id="v22" for="lights-toggle" class="text-xs"><span id="v23">黑夜模式 <span id="v24" class="label-text">dark</span></span></label> 
+         </div> 
+        </div> 
+       </div> 
+       <div id="v25" class="hero-media"> 
+        <div id="v26" class="header-illustration"> 
+         <img id="v27" class="header-illustration-image asset-light" src="dist/images/header-illustration-light.svg" alt="Header illustration"> 
+         <img id="v28" class="header-illustration-image asset-dark" src="dist/images/header-illustration-dark.svg" alt="Header illustration"> 
+        </div> 
+        <div id="v29" class="hero-media-illustration"> 
+         <img id="v30" class="hero-media-illustration-image asset-light" src="dist/images/hero-media-illustration-light.svg" alt="Hero media illustration"> 
+         <img id="v31" class="hero-media-illustration-image asset-dark" src="dist/images/hero-media-illustration-dark.svg" alt="Hero media illustration"> 
+        </div> 
+        <div id="v32" class="hero-media-container"> 
+         <img id="v33" class="hero-media-image asset-light" src="dist/images/1.png" alt="Hero media"> 
+         <img id="v34" class="hero-media-image asset-dark" src="dist/images/1.png" alt="Hero media"> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </section> 
+    <section id="v35" class="features section"> 
+     <div id="v36" class="container"> 
+      <style id="v37" type="text/css">
+		h1{
+		   font: 90"得意黑"; /*设置字体和字体大小*/
+		   margin:50px auto; /*设置元素外边距*/
+		   font-weight: 5000; /*设置字体粗细*/
+		   text-align: center; /*设置文字居中*/
+		   color: #23A0A5; /*设置文字颜色*/
+		   -webkit-animation:bounce 3s infinite;/*设置动画*/
 		}
-
-		img {
-			max-width: 100%;
-			height: auto
+		@-webkit-keyframes bounce{/*创建动画*/
+		   0%,100%,20%,50%,80%{
+		      -webkit-transform:translateY(0);
+		   }40%{
+		      -webkit-transform:translateY(-30px);
+		   }60%{
+		      -webkit-transform:translateY(-15px);
+		   }
 		}
-
-		a {
-			border-radius: 10px;
-			background: #00ffea;
-			padding: 10px;
-			color: white;
-		}
-
-		a:link {
-			color: white;
-		}
-
-		a:visited {
-			color: white;
-		}
-
-		a:hover {
-			color: rgb(255, 0, 0);
-		}
-	</style>
-</head>
-
-<body>
-	<header>
-		<h1>地表开发组</h1>
-		<p>网易我的世界组件开发组</p>
-	</header>
-
-	<section>
-		<h2>我们的作品</h2>
-		<ul>
-			<li>游戏组件：包括各种地图、任务、工具、武器等，帮助玩家在游戏中获得更好的体验。</li>
-			<li>主题组件：包括各种主题地图、场景、UI等，为游戏增添更多的视觉效果和氛围感。</li>
-			<li><p>游戏服务器:<a href="/dbs">dbs</a><a href="/f">落城</a></p></li>
-		</ul>
-	</section>
-
-	<section>
-		<h2>我们的宗旨</h2>
-		<p>为玩家提供更好的游戏体验，制作更多的免费组件。</p>
-	</section>
-
-	<section>
-		<h2>我们的优势</h2>
-		<ul>
-			<li>技术实力：我们的团队成员具备丰富的游戏开发经验和技能，能够开发出高质量的组件。</li>
-			<li>良好的口碑：我们的组件受到广大玩家的喜爱和好评，超越百分之五十的个人开发者和开发组。</li>
-		</ul>
-	</section>
-
-	<section>
-		<h2>联系我们</h2>
-		<ul>
-			<li><a href="mailto:dbkfzkf@163.com">邮箱：dbkfzkf@163.com</a></li>
-			<li>
-				<p>
-				<p><a href="#">QQ：3231296692</a></p>
-				</p>
-			</li>
-		</ul>
-	</section>
-
-	<footer>&copy; 2023地表开发组</footer>
-</body>
-
+	</style> 
+      <script src="js/jq.js"></script> 
+      <div id="v38" class="features-inner section-inner has-bottom-divider"> 
+       <div id="v39" class="features-header text-center"> 
+        <div id="v40" class="container-sm"> 
+         <h1 id="v41"> 
+          <div id="v42">
+            作品 
+          </div> </h1> 
+         <h2 id="v43" class="section-title mt-0">&nbsp; &nbsp; &nbsp; 游戏组件 &nbsp; &nbsp;</h2> 
+         <h5 id="v44" class="section-paragraph">游戏组件包括各种地图、任务、工具、武器等，</h5> 
+         <h5 id="v45">帮助玩家在游戏中获得更好的体验</h5> 
+         <h1 id="v46"> </h1> 
+         <h2 id="v47" class="section-title mt-0">&nbsp; &nbsp; &nbsp; 主题组件 &nbsp; &nbsp;</h2> 
+         <h5 id="v48">各种主题地图、场景、UI等</h5> 
+         <h5 id="v49">为游戏增添更多的视觉效果和氛围感</h5> 
+         <h1 id="v50">游戏服务器</h1> 
+         <a id="v51" class="button button-primary" href="https://dbkfz.link/dbs">D B S</a> 
+         <a id="v52" class="button button-primary" href="https://dbkfz.link/f">落 城</a> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="v53" class="features-wrap"> 
+       <div id="v54" class="feature is-revealing" data-sr-id="0" style="visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 20, 0, 0, 1);"> 
+        <div id="v55" class="feature-inner"> 
+         <div id="v56" class="feature-icon"> 
+         </div> 
+         <div class="featu
+												.......re-content"> 
+          <h3 id="v57" class="feature-title mt-0">我们的宗旨</h3> 
+          <h5 id="v58" class="text-sm mb-0">为玩家提供更好的游戏体验，制作更多的免费组件</h5> 
+         </div> 
+        </div> 
+       </div> 
+       <div id="v59" class="feature is-revealing" style="visibility: visible;"> 
+        <div id="v60" class="feature-inner"> 
+         <div id="v61" class="feature-icon"> 
+         </div> 
+         <div id="v62" class="feature-content"> 
+          <h3 id="v63" class="feature-title mt-0">我们的优势</h3> 
+          <h5 id="v64" class="text-sm mb-0">技术实力</h5> 
+          <h5 id="v65" class="text-sm mb-0">&nbsp; &nbsp; &nbsp; &nbsp;我们的团队成员具备丰富的游戏开发经验和技能，能够开发出高质量的组件。&nbsp;</h5> 
+          <h5 id="v66" class="text-sm mb-0">良好的口碑</h5> 
+          <h5 id="v67" class="text-sm mb-0">&nbsp; &nbsp; &nbsp; &nbsp; 我们的组件受到广大玩家的喜爱和好评，超越百分之五十的个人开发者和开发组。</h5> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <section id="v68" class="cta section"> 
+      <div id="v69" class="container-sm"> 
+       <div id="v70" class="cta-inner section-inner"> 
+        <div id="v71" class="cta-header text-center"> 
+         <h2 id="v72" class="section-title mt-0">联系&nbsp;我们的 &nbsp;老板</h2> 
+         <div id="v73" class="cta-cta"> 
+          <a id="v74" class="button button-primary" href="mailto:ceo@dbkfz.link">邮箱：ceo@dbkfz.link</a> 
+          <p id="v75">&nbsp;</p> 
+          <a id="v76" class="button button-primary" href="">QQ：&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;3231296692</a> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </section> 
+     <footer id="v77" class="site-footer has-top-divider"> 
+      <div id="v78" class="container"> 
+       <div id="v79" class="site-footer-inner"> 
+        <div id="v80" class="brand footer-brand"> 
+         <img id="v82" class="asset-light" src="dist/images/1.png" alt="Logo"> <img id="v83" class="asset-dark" src="dist/images/1.png" alt="Logo">
+        </div> 
+        <div id="v84" class="footer-copyright">
+          © 2023地表开发组 
+        </div> 
+       </div> 
+      </div> 
+     </footer> 
+    </section> 
+   </main> 
+  </div> 
+  <script src="dist/js/main.min.js"></script> 
+  <style id="v85">
+.copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+</style>  
+ </body>
 </html>
